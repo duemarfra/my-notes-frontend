@@ -1,0 +1,29 @@
+/* link.module.css */
+
+
+.link-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .link {
+    padding: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .link {
+      font-size: 16px;
+    }
+  }
+  
